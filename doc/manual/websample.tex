@@ -1,0 +1,28 @@
+% !TEX TS-program = lualatex
+\documentclass[a4paper,12pt,oneside,extrafontsizes]{memoir}
+
+\setstocksize{21mm}{90mm}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+\setlrmarginsandblock{0.5mm}{0.5mm}{*}
+\setulmarginsandblock{0mm}{0mm}{*}
+\setheadfoot{0mm}{0mm}
+\setheaderspaces{*}{0mm}{*}
+\fixthelayout
+
+\input{preamble.tex}
+
+\renewcommand{\specimencontent}{Regulation Автобиография 0123\par}
+
+\begin{document}
+
+\addfontfeatures{Numbers=Proportional}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\makebox[5em][l]{\tiny Regular} {\specimencontent}
+\makebox[5em][l]{\tiny\bfseries Bold} {\bfseries\specimencontent}
+\makebox[5em][l]{\tiny\itshape Oblique} {\itshape\specimencontent}
+\makebox[5em][l]{\tiny\bfseries\itshape Bold Oblique} {\bfseries\itshape\specimencontent}
+
+\end{document}

@@ -1,0 +1,62 @@
+\usepackage{microtype}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\usepackage{fontspec}
+\setmainfont[Path=../../ttf/,
+	BoldFont=Evolventa-Bold.ttf,
+	ItalicFont=Evolventa-Oblique.ttf,
+	BoldItalicFont=Evolventa-BoldOblique.ttf,
+	Ligatures=TeX]{Evolventa-Regular.ttf}
+
+% Font family without TeX "ligatures"
+
+\newfontfamily\notexfont[Path=../../ttf/,
+	BoldFont=Evolventa-Bold.ttf,
+	ItalicFont=Evolventa-Oblique.ttf,
+	BoldItalicFont=Evolventa-BoldOblique.ttf]
+	{Evolventa-Regular.ttf}
+
+\usepackage[english]{babel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Memoir class settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tightlists
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Various commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\specimencontent}{%
+\noindent ABCDEFGHIJKLMNOPQRSTUVWXYZ\par
+\noindent abcdefghijklmnopqrstuvwxyz\par
+\noindent АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ\par
+\noindent абвгдеёжзийклмнопрстуфхцчшщъыьэюя\par
+\noindent (0123456789) [\$¢£¥€₽] \{!?\&№\} ‘’“”«»\par
+}
+
+\newcommand{\specimen}[3]{%
+\begin{tcolorbox}[enhanced,colupper=#1,colback=#2,frame hidden]%
+#3\specimencontent%
+\end{tcolorbox}%
+}
+
+\newcommand{\djvuarrow}{{\normalfont\fontspec{DejaVu Sans}→} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hyperlinks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[bookmarks=true,
+	bookmarksnumbered=true,
+	bookmarksdepth=3,
+	hypertexnames=false]
+	{hyperref}
+
+\hypersetup{
+	pdftitle={Evolventa Font Family User Manual},
+	pdfauthor={Alex I. Kuznetsov}
+}

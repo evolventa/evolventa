@@ -1,0 +1,1 @@
+This file is intended to prevent its parent directory from being removed.

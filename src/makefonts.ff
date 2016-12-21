@@ -1,0 +1,45 @@
+#!/usr/bin/fontforge
+
+/*
+ * usage: fontforge -script makefonts.ff <input font> <type> <output font>
+ * type: otf or ttf
+ * Note: TTFs are NOT autohinted by this script. Use ttfautohint.
+ */
+
+/*
+ * Open input font (SFD)
+ */
+
+Open($1)
+
+/*
+ * Set up generation flags
+ */
+
+// Flags for both TT and PS
+// 0x800 - generate old-style "kern" table alongside GPOS
+// 0x4000 - generate dummy DSIG
+// 0x800000 - store lookup and lookup subtable names in the 'PfEd' table
+// 0x04000000 - omit unmapped glyphs from old-style 'kern' table
+
+genflags_tt=0x04804800
+
+// Flags only for PS
+// 0x200000 - round PostScript coordinates
+
+genflags_ps=genflags_tt|0x200000
+
+/*
+ * Generate output font
+ */
+
+if($2=="otf")
+// OpenType PS
+	Generate($3,"",genflags_ps)
+elseif($2=="ttf")
+// OpenType TT, unhinted
+	ScaleToEm(2048)
+	Generate($3,"",genflags_tt)
+else
+	Error("makefonts: Incorrect font type")
+endif

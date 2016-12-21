@@ -1,0 +1,198 @@
+% !TEX TS-program = lualatex
+\documentclass[a4paper,12pt,oneside,extrafontsizes]{memoir}
+
+\input{preamble.tex}
+
+\begin{document}
+
+\input{frontmatter.tex}
+
+\chapter{Overview}
+
+\emph{Evolventa} is a Cyrillic extension of the open-source \emph{URW Gothic L} font family. It has a familiar geometric sans-serif design and includes four faces:
+
+\begin{itemize}
+	\item Regular
+	\item \textit{Oblique}
+	\item \textbf{Bold}
+	\item \textbf{\textit{Bold Oblique}}
+\end{itemize}
+
+\emph{Evolventa} contains a set of glyphs sufficient for typesetting in all modern Slavic languages that use the Cyrillic script: Russian, Ukrainian, Belarusian, Bulgarian, Serbian and Macedonian. It also includes the euro sign \textbf{€}, ruble sign \textbf{₽} and numero sign \textbf{№}.
+
+The fonts are provided in three formats: OTF (OpenType with CFF outlines), TTF (OpenType with TrueType outlines) and WOFF (Web Open Font Format). For desktop use both OTF and TTF formats should work well with modern software; however, older software can have problems with OTF fonts. WOFF font files are simply compressed TTF fonts optimized for Web use.
+
+\chapter{License}
+
+Copyright \textcopyright{} 2016 by Alex I. Kuznetsov.
+
+\vspace{0.5\onelineskip}
+
+These fonts are free software. You are allowed to distribute and/or modify them under the terms of either (or both) of the following two licenses (your choice):
+
+\begin{enumerate}
+	\item GNU General Public License version 2.
+	\item The LaTeX Project Public License version 1.3c or (at your option) any later version.
+\end{enumerate}
+
+Contains work kindly released to the open source community by URW++ Design and Development GmbH as ``URW Gothic L'' version 001.005 with the following copyright notice:
+
+\vspace{0.5\onelineskip}
+
+{\itshape Copyright URW Software, Copyright 1996 by URW.}
+
+\chapter{Specimen}
+
+\vspace{-\onelineskip}
+
+{\Huge\hspace{0.5em} Evolventa ---\par}
+{\HUGE СВОБОДНЫЙ\par}
+{\Huge\bfseries\hspace{1.5em} Акцидентный\par}
+{\huge Геометрический гротеск\par}
+{\LARGE\itshape\hspace{2em} с четырьмя начертаниями\par}
+{\Large\bfseries\itshape\hspace{1em} основанный на URW Gothic L\par}
+
+\vspace*{2\onelineskip}
+
+\specimen{black}{black!5!white}{}
+\specimen{white}{black}{}
+\specimen{black}{black!5!white}{\bfseries}
+\specimen{white}{black}{\bfseries}
+\specimen{black}{black!5!white}{\itshape}
+\specimen{white}{black}{\itshape}
+\specimen{black}{black!5!white}{\itshape\bfseries}
+\specimen{white}{black}{\itshape\bfseries}
+
+\chapter{Advanced features}
+
+To use most of these features, typesetting software with good OpenType support is required.
+
+\section{Proportional figures}
+
+By default, \emph{Evolventa} provides tabular (monospaced) figures which are best suited for typesetting tabular data. Proportional figures are also provided and can be accessed using the \emph{pnum} OpenType feature. These figures have the same glyph shapes, but are evenly spaced and are more suitable for body text.
+
+\begin{center}
+\bfseries\Huge
+{\addfontfeatures{Numbers=Monospaced}1901--1999}
+\djvuarrow
+{\addfontfeatures{Numbers=Proportional}1901--1999}
+\end{center}
+
+\section{Ligatures}
+
+\emph{Evolventa} supports standard Latin ligatures: ff, fi, fl, ffi, ffl via the \emph{liga} OpenType feature. OpenType aware software will substitute ligatures for character sequences automatically. Alternatively, you can insert them as Unicode characters with code points U+FB00--U+FB04.
+
+\begin{center}
+\bfseries\Huge
+{\addfontfeatures{Ligatures=NoCommon}ff fi fl ffi ffl}
+\djvuarrow
+{\addfontfeatures{Ligatures=Common}ff fi fl ffi ffl}
+\end{center}
+
+\section{Localized forms}
+
+\emph{Evolventa} provides Cyrillic breve (both spacing and combining variants) and Serbian lowercase \textbf{\addfontfeatures{Style=Alternate}б}. Cyrillic breve is used automatically by OpenType aware software when the text is tagged with Cyrillic script using the \emph{locl} OpenType feature. Alternatively, it can be accessed using the \emph{salt}, \emph{ss01} or \emph{ss02} features. Similarly, Serbian lowercase \textbf{\addfontfeatures{Style=Alternate}б} can be accessed via the \emph{locl} (when the text is tagged as Serbian), \emph{salt} or \emph{ss02} features.
+
+\begin{center}
+\bfseries\Huge
+{б˘} \djvuarrow {\addfontfeatures{Style=Alternate}б˘}
+\end{center}
+
+\section{Combining diacritical marks}
+
+\emph{Evolventa} provides combining diacritical marks, which are used to add accents to the previous character. This feature allows the user to create almost any accented character, including characters that don't have an Unicode code point. Supported combining characters are listed in Table \ref{tab:combmarks}.
+
+\begin{table}[htbp]
+	\caption{Combining diacritical marks}
+	\label{tab:combmarks}
+	\notexfont
+	\begin{tabularx}{\textwidth}{Xlc}
+		\toprule
+		\textbf{Name} & \textbf{Code} & \textbf{Character} \\
+		\midrule
+		Combining grave accent & U+0300 & \textbf{`}\\
+		Combining acute accent & U+0301 & \textbf{´}\\
+		Combining circumflex accent & U+0302 & \textbf{ˆ}\\
+		Combining tilde & U+0303 & \textbf{˜}\\
+		Combining macron & U+0304 & \textbf{¯}\\
+		Combining breve & U+0306 & \textbf{˘}\\
+		Combining dot above & U+0307 & \textbf{˙}\\
+		Combining diaeresis & U+0308 & \textbf{¨}\\
+		Combining ring above & U+030A & \textbf{˚}\\
+		Combining double acute accent & U+030B & \textbf{˝}\\
+		Combining caron & U+030C & \textbf{ˇ}\\
+		\bottomrule
+	\end{tabularx}
+\end{table}
+
+Combining mark positioning is implemented using the \emph{mark} and \emph{mkmk} OpenType features. The typesetting software must support these features for it to work properly.
+
+\begin{center}
+\bfseries\Huge
+купю´ра \djvuarrow купю́ра
+\end{center}
+
+Placing one accent mark above another (like in Vietnamese) is also possible:
+
+\begin{center}
+\bfseries\Huge\notexfont
+a˘` \djvuarrow ằ
+\end{center}
+
+When \textbf{i} or \textbf{j} is followed by a combining diacritical mark, the dot is automatically removed via the \emph{ccmp} OpenType feature:
+
+\begin{center}
+\bfseries\Huge\notexfont
+i`j´ \djvuarrow ìj́
+\end{center}
+
+\chapter{Changes from \emph{URW Gothic L}}
+
+\section{New glyphs}
+
+New Unicode code points implemented in the \emph{Evolventa} font family (as compared to the original \emph{URW Gothic L}) are listed in these section. Not all of these glyphs were newly drawn, some of them are simply references to the existing glyphs.
+
+\subsection{Latin Extended-B (U+0180--U+024F)}
+U+0237 (Latin Small Letter Dotless J)
+
+\subsection{Combining Diacritical Marks (U+0300--U+036F)}
+U+0300--U+0304, U+0306--U+0308, U+030A--U+030C
+
+\subsection{Cyrillic (U+0400--U+04FF)}
+U+0400--U+045F, U+0462, U+0463, U+0490, U+0491
+
+\subsection{General Punctuation (U+2000--U+206F)}
+U+2000--U+200D (spaces), U+2010--U+2012, U+2015 (dashes)
+
+\subsection{Currency Symbols (U+20A0--U+20CF)}
+U+20AC (Euro Sign), U+20BD (Ruble Sign)
+
+\subsection{Letterlike Symbols (U+2100--U+214F)}
+U+2116 (Numero Sign)
+
+\subsection{Private Use Area (U+E000--U+F8FF)}
+\begin{itemize}
+\item U+E000--U+E009 (Proportional figures)
+\item U+E080 (Cyrillic breve for lowercase characters)
+\item U+E081 (Cyrillic breve for uppercase characters)
+\item U+E082 (Combining Cyrillic breve)
+\item U+E090--U+E093 (Dotless forms for i and j)
+\item U+E0A0 (Cyrillic Small Letter Be - Serbian form)
+\end{itemize}
+
+\subsection{Alphabetic presentation forms (U+FB00--U+FB4F)}
+U+FB00, U+FB03, U+FB04 (f-ligatures)
+
+\section{Oblique faces}
+
+\textit{Oblique} and \textbf{\textit{Bold Oblique}} faces were generated from their upright counterparts using the original slant (10.5°). Material from the original oblique \emph{URW Gothic L} fonts was not used.
+
+\section{Spacing and kerning}
+
+Original spacing and kerning of the Latin part was mostly preserved in the Regular face and redone from scratch in the Bold face.
+
+\section{Other changes}
+
+Some outlines were very slightly adjusted to ensure that points are present at extrema or to make glyphs eligible for a \emph{vstem3} PostScript hint.
+
+\end{document}
