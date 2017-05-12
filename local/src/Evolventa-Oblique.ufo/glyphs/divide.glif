@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divide" format="1">
+  <advance width="606"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="422" y="409" type="line"/>
+      <point x="335" y="409" type="line"/>
+      <point x="351" y="496" type="line"/>
+      <point x="438" y="496" type="line"/>
+    </contour>
+    <contour>
+      <point x="367" y="112" type="line"/>
+      <point x="280" y="112" type="line"/>
+      <point x="296" y="199" type="line"/>
+      <point x="383" y="199" type="line"/>
+    </contour>
+    <contour>
+      <point x="618" y="341" type="line"/>
+      <point x="604" y="267" type="line"/>
+      <point x="100" y="267" type="line"/>
+      <point x="114" y="341" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>112</integer>
+            <key>width</key>
+            <integer>87</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>267</integer>
+            <key>width</key>
+            <integer>74</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>409</integer>
+            <key>width</key>
+            <integer>87</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
