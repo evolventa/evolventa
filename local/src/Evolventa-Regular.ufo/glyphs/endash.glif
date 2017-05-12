@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="1">
+  <advance width="500"/>
+  <unicode hex="2013"/>
+  <outline>
+    <contour>
+      <point x="0" y="296" type="curve"/>
+      <point x="0" y="296"/>
+      <point x="500" y="296"/>
+      <point x="500" y="296" type="curve"/>
+      <point x="500" y="296"/>
+      <point x="500" y="233"/>
+      <point x="500" y="233" type="curve"/>
+      <point x="500" y="233"/>
+      <point x="0" y="233"/>
+      <point x="0" y="233" type="curve"/>
+      <point x="0" y="233"/>
+      <point x="0" y="296"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>233</integer>
+            <key>width</key>
+            <integer>63</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

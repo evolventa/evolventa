@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="backslash" format="1">
+  <advance width="605"/>
+  <unicode hex="005C"/>
+  <outline>
+    <contour>
+      <point x="464" y="0" type="curve"/>
+      <point x="464" y="0"/>
+      <point x="394" y="0"/>
+      <point x="394" y="0" type="curve"/>
+      <point x="394" y="0"/>
+      <point x="84" y="739"/>
+      <point x="84" y="739" type="curve"/>
+      <point x="84" y="739"/>
+      <point x="154" y="739"/>
+      <point x="154" y="739" type="curve"/>
+      <point x="154" y="739"/>
+      <point x="464" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>719</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
