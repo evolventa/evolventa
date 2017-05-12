@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0439.loclBGR" format="1">
+  <advance width="608"/>
+  <outline>
+    <component base="uni0306.cyr" xOffset="631"/>
+    <component base="uni0438.loclBGR"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-13</integer>
+            <key>width</key>
+            <integer>68</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>527</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>616</integer>
+            <key>width</key>
+            <integer>46</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>726</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>63</integer>
+            <key>width</key>
+            <integer>74</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>152</integer>
+            <key>width</key>
+            <integer>74</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>382</integer>
+            <key>width</key>
+            <integer>74</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>471</integer>
+            <key>width</key>
+            <integer>74</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
