@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-179" y="805" type="move" name="Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="-213" y="623" type="move" name="_Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="-213" y="623" type="move" name="_Anchor-0"/>
+    </contour>
+    <contour>
+      <point x="-300" y="776" type="line"/>
+      <point x="-123" y="666" type="line"/>
+      <point x="-166" y="610" type="line"/>
+      <point x="-343" y="718" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>610</integer>
+            <key>width</key>
+            <integer>166</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-343</integer>
+            <key>width</key>
+            <integer>220</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
