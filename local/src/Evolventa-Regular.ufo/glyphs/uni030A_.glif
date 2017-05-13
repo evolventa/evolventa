@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni030A" format="1">
+  <advance width="0"/>
+  <unicode hex="030A"/>
+  <outline>
+    <contour>
+      <point x="-327" y="820" type="move" name="TopMark"/>
+    </contour>
+    <contour>
+      <point x="-327" y="623" type="move" name="_TopMark"/>
+    </contour>
+    <contour>
+      <point x="-327" y="623" type="move" name="_Top"/>
+    </contour>
+    <component base="ring" xOffset="-493"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>610</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>753</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-419</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-276</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

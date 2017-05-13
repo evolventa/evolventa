@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icircumflex" format="1">
+  <advance width="226"/>
+  <unicode hex="00CE"/>
+  <outline>
+    <contour>
+      <point x="113" y="987" type="move" name="Top"/>
+    </contour>
+    <contour>
+      <point x="76" y="0" type="curve"/>
+      <point x="76" y="0"/>
+      <point x="76" y="739"/>
+      <point x="76" y="739" type="curve"/>
+      <point x="76" y="739"/>
+      <point x="150" y="739"/>
+      <point x="150" y="739" type="curve"/>
+      <point x="150" y="739"/>
+      <point x="150" y="0"/>
+      <point x="150" y="0" type="curve"/>
+      <point x="150" y="0"/>
+      <point x="76" y="0"/>
+    </contour>
+    <contour>
+      <point x="-64" y="805" type="curve"/>
+      <point x="-64" y="805"/>
+      <point x="81" y="931"/>
+      <point x="81" y="931" type="curve"/>
+      <point x="81" y="931"/>
+      <point x="147" y="931"/>
+      <point x="147" y="931" type="curve"/>
+      <point x="147" y="931"/>
+      <point x="290" y="805"/>
+      <point x="290" y="805" type="curve"/>
+      <point x="290" y="805"/>
+      <point x="201" y="805"/>
+      <point x="201" y="805" type="curve"/>
+      <point x="201" y="805"/>
+      <point x="115" y="879"/>
+      <point x="115" y="879" type="curve"/>
+      <point x="115" y="879"/>
+      <point x="27" y="805"/>
+      <point x="27" y="805" type="curve"/>
+      <point x="27" y="805"/>
+      <point x="-64" y="805"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>719</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>76</integer>
+            <key>width</key>
+            <integer>74</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
