@@ -3,30 +3,16 @@
   <advance width="569"/>
   <outline>
     <contour>
-      <point x="285" y="623" type="move" name="Top"/>
+      <point x="285" y="623" type="move" name="Anchor-0"/>
     </contour>
     <contour>
-      <point x="561" y="0" type="curve"/>
-      <point x="561" y="0"/>
-      <point x="483" y="0"/>
-      <point x="483" y="0" type="curve"/>
-      <point x="483" y="0"/>
-      <point x="285" y="463"/>
-      <point x="285" y="463" type="curve"/>
-      <point x="285" y="463"/>
-      <point x="86" y="0"/>
-      <point x="86" y="0" type="curve"/>
-      <point x="86" y="0"/>
-      <point x="8" y="0"/>
-      <point x="8" y="0" type="curve"/>
-      <point x="8" y="0"/>
-      <point x="243" y="547"/>
-      <point x="243" y="547" type="curve"/>
-      <point x="243" y="547"/>
-      <point x="326" y="547"/>
-      <point x="326" y="547" type="curve"/>
-      <point x="326" y="547"/>
-      <point x="561" y="0"/>
+      <point x="561" y="0" type="line"/>
+      <point x="483" y="0" type="line"/>
+      <point x="285" y="463" type="line"/>
+      <point x="86" y="0" type="line"/>
+      <point x="8" y="0" type="line"/>
+      <point x="243" y="547" type="line"/>
+      <point x="326" y="547" type="line"/>
     </contour>
   </outline>
   <lib>

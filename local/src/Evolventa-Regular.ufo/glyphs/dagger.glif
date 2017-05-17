@@ -4,42 +4,18 @@
   <unicode hex="2020"/>
   <outline>
     <contour>
-      <point x="311" y="739" type="curve"/>
-      <point x="311" y="739"/>
-      <point x="311" y="536"/>
-      <point x="311" y="536" type="curve"/>
-      <point x="311" y="536"/>
-      <point x="494" y="536"/>
-      <point x="494" y="536" type="curve"/>
-      <point x="494" y="536"/>
-      <point x="494" y="470"/>
-      <point x="494" y="470" type="curve"/>
-      <point x="494" y="470"/>
-      <point x="311" y="470"/>
-      <point x="311" y="470" type="curve"/>
-      <point x="311" y="470"/>
-      <point x="311" y="-133"/>
-      <point x="311" y="-133" type="curve"/>
-      <point x="311" y="-133"/>
-      <point x="237" y="-133"/>
-      <point x="237" y="-133" type="curve"/>
-      <point x="237" y="-133"/>
-      <point x="237" y="470"/>
-      <point x="237" y="470" type="curve"/>
-      <point x="237" y="470"/>
-      <point x="59" y="470"/>
-      <point x="59" y="470" type="curve"/>
-      <point x="59" y="470"/>
-      <point x="59" y="536"/>
-      <point x="59" y="536" type="curve"/>
-      <point x="59" y="536"/>
-      <point x="237" y="536"/>
-      <point x="237" y="536" type="curve"/>
-      <point x="237" y="536"/>
-      <point x="237" y="739"/>
-      <point x="237" y="739" type="curve"/>
-      <point x="237" y="739"/>
-      <point x="311" y="739"/>
+      <point x="311" y="739" type="line"/>
+      <point x="311" y="536" type="line"/>
+      <point x="494" y="536" type="line"/>
+      <point x="494" y="470" type="line"/>
+      <point x="311" y="470" type="line"/>
+      <point x="311" y="-133" type="line"/>
+      <point x="237" y="-133" type="line"/>
+      <point x="237" y="470" type="line"/>
+      <point x="59" y="470" type="line"/>
+      <point x="59" y="536" type="line"/>
+      <point x="237" y="536" type="line"/>
+      <point x="237" y="739" type="line"/>
     </contour>
   </outline>
   <lib>

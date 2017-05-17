@@ -4,13 +4,11 @@
   <unicode hex="0073"/>
   <outline>
     <contour>
-      <point x="194" y="623" type="move" name="Top"/>
+      <point x="194" y="623" type="move" name="Anchor-0"/>
     </contour>
     <contour>
       <point x="18" y="161" type="curve"/>
-      <point x="18" y="161"/>
-      <point x="91" y="161"/>
-      <point x="91" y="161" type="curve"/>
+      <point x="91" y="161" type="line"/>
       <point x="95" y="93"/>
       <point x="132" y="55"/>
       <point x="194" y="55" type="curve" smooth="yes"/>
@@ -32,9 +30,7 @@
       <point x="281" y="560"/>
       <point x="344" y="500"/>
       <point x="347" y="412" type="curve"/>
-      <point x="347" y="412"/>
-      <point x="272" y="412"/>
-      <point x="272" y="412" type="curve"/>
+      <point x="272" y="412" type="line"/>
       <point x="268" y="464"/>
       <point x="240" y="492"/>
       <point x="192" y="492" type="curve" smooth="yes"/>

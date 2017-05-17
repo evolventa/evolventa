@@ -4,42 +4,20 @@
   <unicode hex="043A"/>
   <outline>
     <contour>
-      <point x="262" y="623" type="move" name="Top"/>
+      <point x="262" y="623" type="move" name="Anchor-0"/>
     </contour>
     <contour>
-      <point x="63" y="547" type="curve"/>
-      <point x="63" y="547"/>
-      <point x="137" y="547"/>
-      <point x="137" y="547" type="curve"/>
-      <point x="137" y="547"/>
-      <point x="137" y="303"/>
-      <point x="137" y="303" type="curve"/>
-      <point x="137" y="303"/>
-      <point x="387" y="547"/>
-      <point x="387" y="547" type="curve"/>
-      <point x="387" y="547"/>
-      <point x="483" y="547"/>
-      <point x="483" y="547" type="curve"/>
-      <point x="483" y="547"/>
-      <point x="210" y="282"/>
-      <point x="210" y="282" type="curve"/>
-      <point x="210" y="282"/>
-      <point x="483" y="0"/>
-      <point x="483" y="0" type="curve"/>
-      <point x="483" y="0"/>
-      <point x="386" y="0"/>
-      <point x="386" y="0" type="curve"/>
-      <point x="386" y="0"/>
-      <point x="137" y="258"/>
-      <point x="137" y="258" type="curve"/>
-      <point x="137" y="258"/>
-      <point x="137" y="0"/>
-      <point x="137" y="0" type="curve"/>
-      <point x="137" y="0"/>
-      <point x="63" y="0"/>
-      <point x="63" y="0" type="curve"/>
-      <point x="63" y="0"/>
-      <point x="63" y="547"/>
+      <point x="63" y="547" type="line"/>
+      <point x="137" y="547" type="line"/>
+      <point x="137" y="303" type="line"/>
+      <point x="387" y="547" type="line"/>
+      <point x="483" y="547" type="line"/>
+      <point x="210" y="282" type="line"/>
+      <point x="483" y="0" type="line"/>
+      <point x="386" y="0" type="line"/>
+      <point x="137" y="258" type="line"/>
+      <point x="137" y="0" type="line"/>
+      <point x="63" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

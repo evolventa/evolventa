@@ -4,45 +4,21 @@
   <unicode hex="043D"/>
   <outline>
     <contour>
-      <point x="301" y="623" type="move" name="Top"/>
+      <point x="301" y="623" type="move" name="Anchor-0"/>
     </contour>
     <contour>
-      <point x="539" y="0" type="curve"/>
-      <point x="539" y="0"/>
-      <point x="465" y="0"/>
-      <point x="465" y="0" type="curve"/>
-      <point x="465" y="0"/>
-      <point x="465" y="245"/>
-      <point x="465" y="245" type="curve"/>
-      <point x="465" y="245"/>
-      <point x="137" y="245"/>
-      <point x="137" y="245" type="curve"/>
-      <point x="137" y="245"/>
-      <point x="137" y="0"/>
-      <point x="137" y="0" type="curve"/>
-      <point x="137" y="0"/>
-      <point x="63" y="0"/>
-      <point x="63" y="0" type="curve"/>
-      <point x="63" y="0"/>
-      <point x="63" y="547"/>
-      <point x="63" y="547" type="curve"/>
-      <point x="63" y="547"/>
-      <point x="137" y="547"/>
-      <point x="137" y="547" type="curve"/>
-      <point x="137" y="547"/>
-      <point x="137" y="312"/>
-      <point x="137" y="312" type="curve"/>
-      <point x="137" y="312"/>
-      <point x="465" y="312"/>
-      <point x="465" y="312" type="curve"/>
-      <point x="465" y="312"/>
-      <point x="465" y="547"/>
-      <point x="465" y="547" type="curve"/>
-      <point x="465" y="547"/>
-      <point x="539" y="547"/>
-      <point x="539" y="547" type="curve"/>
-      <point x="539" y="547"/>
-      <point x="539" y="0"/>
+      <point x="539" y="0" type="line"/>
+      <point x="465" y="0" type="line"/>
+      <point x="465" y="245" type="line"/>
+      <point x="137" y="245" type="line"/>
+      <point x="137" y="0" type="line"/>
+      <point x="63" y="0" type="line"/>
+      <point x="63" y="547" type="line"/>
+      <point x="137" y="547" type="line"/>
+      <point x="137" y="312" type="line"/>
+      <point x="465" y="312" type="line"/>
+      <point x="465" y="547" type="line"/>
+      <point x="539" y="547" type="line"/>
     </contour>
   </outline>
   <lib>

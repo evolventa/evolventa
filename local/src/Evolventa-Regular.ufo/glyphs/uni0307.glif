@@ -4,15 +4,20 @@
   <unicode hex="0307"/>
   <outline>
     <contour>
-      <point x="-327" y="805" type="move" name="TopMark"/>
+      <point x="-327" y="805" type="move" name="Anchor-1"/>
     </contour>
     <contour>
-      <point x="-327" y="623" type="move" name="_TopMark"/>
+      <point x="-327" y="623" type="move" name="_Anchor-1"/>
     </contour>
     <contour>
-      <point x="-327" y="623" type="move" name="_Top"/>
+      <point x="-327" y="623" type="move" name="_Anchor-0"/>
     </contour>
-    <component base="dotaccent" xOffset="-438"/>
+    <contour>
+      <point x="-364" y="749" type="line"/>
+      <point x="-290" y="749" type="line"/>
+      <point x="-290" y="623" type="line"/>
+      <point x="-364" y="623" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -2,8 +2,44 @@
 <glyph name="uni0439.loclBGR" format="1">
   <advance width="608"/>
   <outline>
-    <component base="uni0306.cyr" xOffset="631"/>
-    <component base="uni0438.loclBGR"/>
+    <contour>
+      <point x="152" y="746" type="curve"/>
+      <point x="226" y="746" type="line"/>
+      <point x="226" y="688"/>
+      <point x="255" y="662"/>
+      <point x="304" y="662" type="curve" smooth="yes"/>
+      <point x="353" y="662"/>
+      <point x="382" y="688"/>
+      <point x="382" y="746" type="curve"/>
+      <point x="456" y="746" type="line"/>
+      <point x="441" y="656"/>
+      <point x="384" y="616"/>
+      <point x="304" y="616" type="curve" smooth="yes"/>
+      <point x="224" y="616"/>
+      <point x="167" y="656"/>
+    </contour>
+    <contour>
+      <point x="545" y="547" type="line"/>
+      <point x="545" y="0" type="line"/>
+      <point x="471" y="0" type="line"/>
+      <point x="471" y="85" type="line"/>
+      <point x="434" y="17"/>
+      <point x="380" y="-13"/>
+      <point x="295" y="-13" type="curve" smooth="yes"/>
+      <point x="139" y="-13"/>
+      <point x="63" y="82"/>
+      <point x="63" y="252" type="curve" smooth="yes"/>
+      <point x="63" y="547" type="line"/>
+      <point x="137" y="547" type="line"/>
+      <point x="137" y="252" type="line" smooth="yes"/>
+      <point x="137" y="127"/>
+      <point x="184" y="55"/>
+      <point x="300" y="55" type="curve" smooth="yes"/>
+      <point x="416" y="55"/>
+      <point x="471" y="136"/>
+      <point x="471" y="266" type="curve" smooth="yes"/>
+      <point x="471" y="547" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

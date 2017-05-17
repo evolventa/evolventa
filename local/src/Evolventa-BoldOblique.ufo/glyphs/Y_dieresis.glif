@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis" format="1">
+  <advance width="637"/>
+  <unicode hex="0178"/>
+  <outline>
+    <contour>
+      <point x="250" y="0" type="line"/>
+      <point x="301" y="273" type="line"/>
+      <point x="144" y="739" type="line"/>
+      <point x="292" y="739" type="line"/>
+      <point x="393" y="399" type="line"/>
+      <point x="619" y="739" type="line"/>
+      <point x="767" y="739" type="line"/>
+      <point x="438" y="273" type="line"/>
+      <point x="387" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="296" y="805" type="line"/>
+      <point x="321" y="938" type="line"/>
+      <point x="454" y="938" type="line"/>
+      <point x="429" y="805" type="line"/>
+    </contour>
+    <contour>
+      <point x="506" y="805" type="line"/>
+      <point x="531" y="938" type="line"/>
+      <point x="664" y="938" type="line"/>
+      <point x="639" y="805" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>719</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>805</integer>
+            <key>width</key>
+            <integer>133</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

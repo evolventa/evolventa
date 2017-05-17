@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0446.loclBGR" format="1">
+  <advance width="654"/>
+  <outline>
+    <contour>
+      <point x="501" y="0" type="line"/>
+      <point x="477" y="0" type="line"/>
+      <point x="423" y="0" type="line"/>
+      <point x="433" y="53" type="line"/>
+      <point x="373" y="4"/>
+      <point x="329" y="-13"/>
+      <point x="262" y="-13" type="curve" smooth="yes"/>
+      <point x="187" y="-13"/>
+      <point x="132" y="18"/>
+      <point x="106" y="74" type="curve" smooth="yes"/>
+      <point x="85" y="119"/>
+      <point x="84" y="166"/>
+      <point x="101" y="257" type="curve" smooth="yes"/>
+      <point x="156" y="554" type="line"/>
+      <point x="289" y="554" type="line"/>
+      <point x="239" y="283" type="line" smooth="yes"/>
+      <point x="225" y="206"/>
+      <point x="225" y="166"/>
+      <point x="241" y="142" type="curve" smooth="yes"/>
+      <point x="256" y="120"/>
+      <point x="278" y="109"/>
+      <point x="312" y="109" type="curve" smooth="yes"/>
+      <point x="358" y="109"/>
+      <point x="399" y="128"/>
+      <point x="424" y="162" type="curve" smooth="yes"/>
+      <point x="443" y="187"/>
+      <point x="454" y="222"/>
+      <point x="467" y="293" type="curve" smooth="yes"/>
+      <point x="515" y="554" type="line"/>
+      <point x="648" y="554" type="line"/>
+      <point x="568" y="121" type="line"/>
+      <point x="657" y="121" type="line"/>
+      <point x="611" y="-126" type="line"/>
+      <point x="478" y="-126" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-13</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>534</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

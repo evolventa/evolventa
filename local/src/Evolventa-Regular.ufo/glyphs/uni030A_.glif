@@ -4,15 +4,42 @@
   <unicode hex="030A"/>
   <outline>
     <contour>
-      <point x="-327" y="820" type="move" name="TopMark"/>
+      <point x="-327" y="820" type="move" name="Anchor-1"/>
     </contour>
     <contour>
-      <point x="-327" y="623" type="move" name="_TopMark"/>
+      <point x="-327" y="623" type="move" name="_Anchor-1"/>
     </contour>
     <contour>
-      <point x="-327" y="623" type="move" name="_Top"/>
+      <point x="-327" y="623" type="move" name="_Anchor-0"/>
     </contour>
-    <component base="ring" xOffset="-493"/>
+    <contour>
+      <point x="-326" y="794" type="curve" smooth="yes"/>
+      <point x="-276" y="794"/>
+      <point x="-235" y="752"/>
+      <point x="-235" y="702" type="curve" smooth="yes"/>
+      <point x="-235" y="651"/>
+      <point x="-276" y="610"/>
+      <point x="-327" y="610" type="curve" smooth="yes"/>
+      <point x="-378" y="610"/>
+      <point x="-419" y="651"/>
+      <point x="-419" y="701" type="curve" smooth="yes"/>
+      <point x="-419" y="753"/>
+      <point x="-378" y="794"/>
+    </contour>
+    <contour>
+      <point x="-328" y="753" type="curve" smooth="yes"/>
+      <point x="-355" y="753"/>
+      <point x="-378" y="730"/>
+      <point x="-378" y="701" type="curve" smooth="yes"/>
+      <point x="-378" y="673"/>
+      <point x="-355" y="651"/>
+      <point x="-327" y="651" type="curve" smooth="yes"/>
+      <point x="-299" y="651"/>
+      <point x="-276" y="674"/>
+      <point x="-276" y="701" type="curve" smooth="yes"/>
+      <point x="-276" y="730"/>
+      <point x="-299" y="753"/>
+    </contour>
   </outline>
   <lib>
     <dict>

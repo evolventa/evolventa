@@ -4,14 +4,25 @@
   <unicode hex="030B"/>
   <outline>
     <contour>
-      <point x="-328" y="805" type="move" name="TopMark"/>
+      <point x="-328" y="805" type="move" name="Anchor-1"/>
     </contour>
     <contour>
-      <point x="-328" y="623" type="move" name="_TopMark"/>
+      <point x="-328" y="623" type="move" name="_Anchor-1"/>
     </contour>
     <contour>
-      <point x="-328" y="623" type="move" name="_Top"/>
+      <point x="-328" y="623" type="move" name="_Anchor-0"/>
     </contour>
-    <component base="hungarumlaut" xOffset="-591"/>
+    <contour>
+      <point x="-517" y="657" type="line"/>
+      <point x="-346" y="780" type="line"/>
+      <point x="-308" y="731" type="line"/>
+      <point x="-482" y="610" type="line"/>
+    </contour>
+    <contour>
+      <point x="-321" y="657" type="line"/>
+      <point x="-150" y="780" type="line"/>
+      <point x="-112" y="731" type="line"/>
+      <point x="-286" y="610" type="line"/>
+    </contour>
   </outline>
 </glyph>

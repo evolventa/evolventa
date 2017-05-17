@@ -4,9 +4,14 @@
   <unicode hex="0406"/>
   <outline>
     <contour>
-      <point x="113" y="805" type="move" name="Top"/>
+      <point x="113" y="805" type="move" name="Anchor-0"/>
     </contour>
-    <component base="I"/>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="76" y="739" type="line"/>
+      <point x="150" y="739" type="line"/>
+      <point x="150" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

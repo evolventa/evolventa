@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0416.loclBGR" format="1">
+  <advance width="1133"/>
+  <outline>
+    <contour>
+      <point x="1113" y="0" type="line"/>
+      <point x="950" y="0" type="line"/>
+      <point x="734" y="372" type="line"/>
+      <point x="1087" y="739" type="line"/>
+      <point x="1250" y="739" type="line"/>
+      <point x="881" y="376" type="line"/>
+    </contour>
+    <contour>
+      <point x="635" y="0" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="635" y="739" type="line"/>
+      <point x="772" y="739" type="line"/>
+    </contour>
+    <contour>
+      <point x="183" y="0" type="line"/>
+      <point x="20" y="0" type="line"/>
+      <point x="392" y="376" type="line"/>
+      <point x="157" y="739" type="line"/>
+      <point x="320" y="739" type="line"/>
+      <point x="537" y="372" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>719</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
