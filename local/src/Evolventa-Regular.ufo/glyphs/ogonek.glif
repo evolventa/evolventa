@@ -5,9 +5,7 @@
   <outline>
     <contour>
       <point x="146" y="0" type="curve"/>
-      <point x="146" y="0"/>
-      <point x="197" y="0"/>
-      <point x="197" y="0" type="curve"/>
+      <point x="197" y="0" type="line"/>
       <point x="153" y="-31"/>
       <point x="124" y="-70"/>
       <point x="124" y="-98" type="curve" smooth="yes"/>
@@ -17,9 +15,7 @@
       <point x="199" y="-146"/>
       <point x="213" y="-143"/>
       <point x="228" y="-136" type="curve"/>
-      <point x="228" y="-136"/>
-      <point x="228" y="-182"/>
-      <point x="228" y="-182" type="curve"/>
+      <point x="228" y="-182" type="line"/>
       <point x="208" y="-188"/>
       <point x="194" y="-191"/>
       <point x="178" y="-191" type="curve" smooth="yes"/>

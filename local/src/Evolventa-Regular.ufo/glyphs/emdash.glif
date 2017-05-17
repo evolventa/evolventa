@@ -4,18 +4,10 @@
   <unicode hex="2014"/>
   <outline>
     <contour>
-      <point x="0" y="296" type="curve"/>
-      <point x="0" y="296"/>
-      <point x="1000" y="296"/>
-      <point x="1000" y="296" type="curve"/>
-      <point x="1000" y="296"/>
-      <point x="1000" y="233"/>
-      <point x="1000" y="233" type="curve"/>
-      <point x="1000" y="233"/>
-      <point x="0" y="233"/>
-      <point x="0" y="233" type="curve"/>
-      <point x="0" y="233"/>
-      <point x="0" y="296"/>
+      <point x="0" y="296" type="line"/>
+      <point x="1000" y="296" type="line"/>
+      <point x="1000" y="233" type="line"/>
+      <point x="0" y="233" type="line"/>
     </contour>
   </outline>
   <lib>

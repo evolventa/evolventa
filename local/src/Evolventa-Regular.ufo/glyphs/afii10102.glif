@@ -4,9 +4,54 @@
   <unicode hex="0455"/>
   <outline>
     <contour>
-      <point x="194" y="623" type="move" name="Top"/>
+      <point x="194" y="623" type="move" name="Anchor-0"/>
     </contour>
-    <component base="s"/>
+    <contour>
+      <point x="18" y="161" type="curve"/>
+      <point x="91" y="161" type="line"/>
+      <point x="95" y="93"/>
+      <point x="132" y="55"/>
+      <point x="194" y="55" type="curve" smooth="yes"/>
+      <point x="248" y="55"/>
+      <point x="286" y="95"/>
+      <point x="286" y="150" type="curve" smooth="yes"/>
+      <point x="286" y="200"/>
+      <point x="266" y="220"/>
+      <point x="180" y="255" type="curve" smooth="yes"/>
+      <point x="103" y="287"/>
+      <point x="102" y="287"/>
+      <point x="79" y="308" type="curve" smooth="yes"/>
+      <point x="52" y="333"/>
+      <point x="38" y="366"/>
+      <point x="38" y="406" type="curve" smooth="yes"/>
+      <point x="38" y="495"/>
+      <point x="103" y="560"/>
+      <point x="193" y="560" type="curve" smooth="yes"/>
+      <point x="281" y="560"/>
+      <point x="344" y="500"/>
+      <point x="347" y="412" type="curve"/>
+      <point x="272" y="412" type="line"/>
+      <point x="268" y="464"/>
+      <point x="240" y="492"/>
+      <point x="192" y="492" type="curve" smooth="yes"/>
+      <point x="148" y="492"/>
+      <point x="113" y="457"/>
+      <point x="113" y="413" type="curve" smooth="yes"/>
+      <point x="113" y="381"/>
+      <point x="129" y="358"/>
+      <point x="164" y="340" type="curve" smooth="yes"/>
+      <point x="180" y="333"/>
+      <point x="184" y="331"/>
+      <point x="266" y="297" type="curve" smooth="yes"/>
+      <point x="330" y="270"/>
+      <point x="361" y="224"/>
+      <point x="361" y="157" type="curve" smooth="yes"/>
+      <point x="361" y="57"/>
+      <point x="293" y="-13"/>
+      <point x="194" y="-13" type="curve" smooth="yes"/>
+      <point x="88" y="-13"/>
+      <point x="19" y="55"/>
+    </contour>
   </outline>
   <lib>
     <dict>

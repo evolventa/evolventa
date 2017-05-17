@@ -4,19 +4,13 @@
   <unicode hex="0447"/>
   <outline>
     <contour>
-      <point x="250" y="623" type="move" name="Top"/>
+      <point x="250" y="623" type="move" name="Anchor-0"/>
     </contour>
     <contour>
-      <point x="460" y="547" type="curve"/>
-      <point x="460" y="547"/>
-      <point x="460" y="0"/>
-      <point x="460" y="0" type="curve"/>
-      <point x="460" y="0"/>
-      <point x="386" y="0"/>
-      <point x="386" y="0" type="curve"/>
-      <point x="386" y="0"/>
-      <point x="386" y="218"/>
-      <point x="386" y="218" type="curve"/>
+      <point x="460" y="547" type="line"/>
+      <point x="460" y="0" type="line"/>
+      <point x="386" y="0" type="line"/>
+      <point x="386" y="218" type="line"/>
       <point x="336" y="212"/>
       <point x="279" y="208"/>
       <point x="214" y="208" type="curve" smooth="yes"/>
@@ -26,26 +20,16 @@
       <point x="65" y="269"/>
       <point x="45" y="318"/>
       <point x="45" y="381" type="curve" smooth="yes"/>
-      <point x="45" y="381"/>
-      <point x="45" y="547"/>
-      <point x="45" y="547" type="curve"/>
-      <point x="45" y="547"/>
-      <point x="119" y="547"/>
-      <point x="119" y="547" type="curve"/>
-      <point x="119" y="547"/>
-      <point x="119" y="381"/>
-      <point x="119" y="381" type="curve" smooth="yes"/>
+      <point x="45" y="547" type="line"/>
+      <point x="119" y="547" type="line"/>
+      <point x="119" y="381" type="line" smooth="yes"/>
       <point x="119" y="297"/>
       <point x="151" y="275"/>
       <point x="273" y="275" type="curve" smooth="yes"/>
       <point x="314" y="275"/>
       <point x="342" y="278"/>
       <point x="386" y="284" type="curve"/>
-      <point x="386" y="284"/>
-      <point x="386" y="547"/>
-      <point x="386" y="547" type="curve"/>
-      <point x="386" y="547"/>
-      <point x="460" y="547"/>
+      <point x="386" y="547" type="line"/>
     </contour>
   </outline>
   <lib>

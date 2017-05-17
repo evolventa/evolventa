@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="1">
+  <advance width="1000"/>
+  <unicode hex="2026"/>
+  <outline>
+    <contour>
+      <point x="100" y="0" type="line"/>
+      <point x="124" y="128" type="line"/>
+      <point x="257" y="128" type="line"/>
+      <point x="233" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="433" y="0" type="line"/>
+      <point x="457" y="128" type="line"/>
+      <point x="590" y="128" type="line"/>
+      <point x="566" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="766" y="0" type="line"/>
+      <point x="790" y="128" type="line"/>
+      <point x="923" y="128" type="line"/>
+      <point x="899" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>128</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

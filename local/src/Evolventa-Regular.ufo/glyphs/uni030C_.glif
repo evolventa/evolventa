@@ -4,15 +4,23 @@
   <unicode hex="030C"/>
   <outline>
     <contour>
-      <point x="-328" y="805" type="move" name="TopMark"/>
+      <point x="-328" y="805" type="move" name="Anchor-1"/>
     </contour>
     <contour>
-      <point x="-328" y="623" type="move" name="_TopMark"/>
+      <point x="-328" y="623" type="move" name="_Anchor-1"/>
     </contour>
     <contour>
-      <point x="-328" y="623" type="move" name="_Top"/>
+      <point x="-328" y="623" type="move" name="_Anchor-0"/>
     </contour>
-    <component base="caron" xOffset="-579"/>
+    <contour>
+      <point x="-151" y="749" type="line"/>
+      <point x="-296" y="623" type="line"/>
+      <point x="-362" y="623" type="line"/>
+      <point x="-505" y="749" type="line"/>
+      <point x="-416" y="749" type="line"/>
+      <point x="-330" y="675" type="line"/>
+      <point x="-242" y="749" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -3,7 +3,7 @@
   <advance width="734"/>
   <outline>
     <contour>
-      <point x="222" y="623" type="move" name="Top"/>
+      <point x="222" y="623" type="move" name="Anchor-0"/>
     </contour>
     <contour>
       <point x="438" y="485" type="curve" smooth="yes"/>

@@ -30,13 +30,13 @@
             <key>position</key>
             <integer>830</integer>
             <key>width</key>
-            <integer>138</integer>
+            <integer>73</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>830</integer>
             <key>width</key>
-            <integer>73</integer>
+            <integer>138</integer>
           </dict>
         </array>
         <key>vhints</key>

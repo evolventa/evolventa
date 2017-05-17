@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0433.loclSRB" format="1">
+  <advance width="314"/>
+  <outline>
+    <contour>
+      <point x="87" y="707" type="line"/>
+      <point x="354" y="707" type="line"/>
+      <point x="342" y="643" type="line"/>
+      <point x="75" y="643" type="line"/>
+    </contour>
+    <contour>
+      <point x="63" y="0" type="line"/>
+      <point x="164" y="547" type="line"/>
+      <point x="238" y="547" type="line"/>
+      <point x="137" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>527</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>643</integer>
+            <key>width</key>
+            <integer>64</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>63</integer>
+            <key>width</key>
+            <integer>291</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

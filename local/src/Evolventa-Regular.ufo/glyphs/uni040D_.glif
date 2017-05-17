@@ -4,10 +4,26 @@
   <unicode hex="040D"/>
   <outline>
     <contour>
-      <point x="370" y="987" type="move" name="Top"/>
+      <point x="370" y="987" type="move" name="Anchor-0"/>
     </contour>
-    <component base="gravecomb" xOffset="691" yOffset="182"/>
-    <component base="afii10026"/>
+    <contour>
+      <point x="247" y="958" type="line"/>
+      <point x="445" y="848" type="line"/>
+      <point x="412" y="792" type="line"/>
+      <point x="215" y="900" type="line"/>
+    </contour>
+    <contour>
+      <point x="590" y="739" type="line"/>
+      <point x="664" y="739" type="line"/>
+      <point x="664" y="0" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="590" y="629" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="76" y="0" type="line"/>
+      <point x="76" y="739" type="line"/>
+      <point x="150" y="739" type="line"/>
+      <point x="150" y="110" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

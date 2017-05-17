@@ -3,15 +3,17 @@
 <plist version="1.0">
   <dict>
     <key>familyName</key>
-    <string>1705130032-Evolventa</string>
+    <string>1705170258-Evolventa</string>
     <key>styleName</key>
     <string>Oblique</string>
     <key>styleMapFamilyName</key>
     <string>Evolventa Oblique</string>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>copyright</key>
     <string>Copyright (c) 2016 by Alex I. Kuznetsov.
 
@@ -41,26 +43,28 @@ Original URW fonts can be obtained at the Evolventa website (https://evolventa.g
     <key>openTypeHeadCreated</key>
     <string>1996/05/14 05:14:16</string>
     <key>openTypeHheaAscender</key>
-    <integer>1060</integer>
+    <integer>800</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-270</integer>
+    <integer>-200</integer>
     <key>openTypeHheaLineGap</key>
-    <integer>0</integer>
+    <integer>330</integer>
     <key>openTypeNameVersion</key>
-    <string>Version 1.000</string>
+    <string>Version 1.0 </string>
     <key>openTypeNameUniqueID</key>
     <string>FontForge : Evolventa Oblique : 13-5-2017</string>
+    <key>openTypeNameCompatibleFullName</key>
+    <string>Evolventa Oblique</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>2</integer>
-      <integer>11</integer>
+      <integer>0</integer>
       <integer>5</integer>
+      <integer>3</integer>
+      <integer>4</integer>
+      <integer>0</integer>
+      <integer>0</integer>
       <integer>2</integer>
-      <integer>2</integer>
-      <integer>2</integer>
-      <integer>2</integer>
-      <integer>2</integer>
-      <integer>2</integer>
+      <integer>0</integer>
       <integer>4</integer>
     </array>
     <key>openTypeOS2WidthClass</key>
@@ -136,7 +140,7 @@ Original URW fonts can be obtained at the Evolventa website (https://evolventa.g
     <key>postscriptUnderlineThickness</key>
     <integer>58</integer>
     <key>postscriptUnderlinePosition</key>
-    <integer>-96</integer>
+    <integer>-154</integer>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-13</integer>
@@ -150,14 +154,6 @@ Original URW fonts can be obtained at the Evolventa website (https://evolventa.g
     <array>
       <integer>-192</integer>
       <integer>-192</integer>
-    </array>
-    <key>postscriptStemSnapH</key>
-    <array>
-      <integer>67</integer>
-    </array>
-    <key>postscriptStemSnapV</key>
-    <array>
-      <integer>76</integer>
     </array>
   </dict>
 </plist>

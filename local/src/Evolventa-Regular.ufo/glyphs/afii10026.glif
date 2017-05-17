@@ -4,39 +4,19 @@
   <unicode hex="0418"/>
   <outline>
     <contour>
-      <point x="370" y="805" type="move" name="Top"/>
+      <point x="370" y="805" type="move" name="Anchor-0"/>
     </contour>
     <contour>
-      <point x="590" y="739" type="curve"/>
-      <point x="590" y="739"/>
-      <point x="664" y="739"/>
-      <point x="664" y="739" type="curve"/>
-      <point x="664" y="739"/>
-      <point x="664" y="0"/>
-      <point x="664" y="0" type="curve"/>
-      <point x="664" y="0"/>
-      <point x="590" y="0"/>
-      <point x="590" y="0" type="curve"/>
-      <point x="590" y="0"/>
-      <point x="590" y="629"/>
-      <point x="590" y="629" type="curve"/>
-      <point x="590" y="629"/>
-      <point x="150" y="0"/>
-      <point x="150" y="0" type="curve"/>
-      <point x="150" y="0"/>
-      <point x="76" y="0"/>
-      <point x="76" y="0" type="curve"/>
-      <point x="76" y="0"/>
-      <point x="76" y="739"/>
-      <point x="76" y="739" type="curve"/>
-      <point x="76" y="739"/>
-      <point x="150" y="739"/>
-      <point x="150" y="739" type="curve"/>
-      <point x="150" y="739"/>
-      <point x="150" y="110"/>
-      <point x="150" y="110" type="curve"/>
-      <point x="150" y="110"/>
-      <point x="590" y="739"/>
+      <point x="590" y="739" type="line"/>
+      <point x="664" y="739" type="line"/>
+      <point x="664" y="0" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="590" y="629" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="76" y="0" type="line"/>
+      <point x="76" y="739" type="line"/>
+      <point x="150" y="739" type="line"/>
+      <point x="150" y="110" type="line"/>
     </contour>
   </outline>
   <lib>

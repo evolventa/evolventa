@@ -4,14 +4,19 @@
   <unicode hex="0301"/>
   <outline>
     <contour>
-      <point x="-328" y="805" type="move" name="TopMark"/>
+      <point x="-328" y="805" type="move" name="Anchor-1"/>
     </contour>
     <contour>
-      <point x="-328" y="623" type="move" name="_TopMark"/>
+      <point x="-328" y="623" type="move" name="_Anchor-1"/>
     </contour>
     <contour>
-      <point x="-328" y="623" type="move" name="_Top"/>
+      <point x="-328" y="623" type="move" name="_Anchor-0"/>
     </contour>
-    <component base="acute" xOffset="-482"/>
+    <contour>
+      <point x="-408" y="666" type="line"/>
+      <point x="-215" y="782" type="line"/>
+      <point x="-181" y="724" type="line"/>
+      <point x="-374" y="610" type="line"/>
+    </contour>
   </outline>
 </glyph>

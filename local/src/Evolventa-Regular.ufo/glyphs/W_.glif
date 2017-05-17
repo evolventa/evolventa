@@ -4,48 +4,22 @@
   <unicode hex="0057"/>
   <outline>
     <contour>
-      <point x="480" y="805" type="move" name="Top"/>
+      <point x="480" y="805" type="move" name="Anchor-0"/>
     </contour>
     <contour>
-      <point x="221" y="0" type="curve"/>
-      <point x="221" y="0"/>
-      <point x="10" y="739"/>
-      <point x="10" y="739" type="curve"/>
-      <point x="10" y="739"/>
-      <point x="86" y="739"/>
-      <point x="86" y="739" type="curve"/>
-      <point x="86" y="739"/>
-      <point x="268" y="96"/>
-      <point x="268" y="96" type="curve"/>
-      <point x="268" y="96"/>
-      <point x="445" y="739"/>
-      <point x="445" y="739" type="curve"/>
-      <point x="445" y="739"/>
-      <point x="515" y="739"/>
-      <point x="515" y="739" type="curve"/>
-      <point x="515" y="739"/>
-      <point x="692" y="96"/>
-      <point x="692" y="96" type="curve"/>
-      <point x="692" y="96"/>
-      <point x="874" y="739"/>
-      <point x="874" y="739" type="curve"/>
-      <point x="874" y="739"/>
-      <point x="950" y="739"/>
-      <point x="950" y="739" type="curve"/>
-      <point x="950" y="739"/>
-      <point x="738" y="0"/>
-      <point x="738" y="0" type="curve"/>
-      <point x="738" y="0"/>
-      <point x="643" y="0"/>
-      <point x="643" y="0" type="curve"/>
-      <point x="643" y="0"/>
-      <point x="479" y="606"/>
-      <point x="479" y="606" type="curve"/>
-      <point x="479" y="606"/>
-      <point x="317" y="0"/>
-      <point x="317" y="0" type="curve"/>
-      <point x="317" y="0"/>
-      <point x="221" y="0"/>
+      <point x="221" y="0" type="line"/>
+      <point x="10" y="739" type="line"/>
+      <point x="86" y="739" type="line"/>
+      <point x="268" y="96" type="line"/>
+      <point x="445" y="739" type="line"/>
+      <point x="515" y="739" type="line"/>
+      <point x="692" y="96" type="line"/>
+      <point x="874" y="739" type="line"/>
+      <point x="950" y="739" type="line"/>
+      <point x="738" y="0" type="line"/>
+      <point x="643" y="0" type="line"/>
+      <point x="479" y="606" type="line"/>
+      <point x="317" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

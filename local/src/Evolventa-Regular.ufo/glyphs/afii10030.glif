@@ -4,9 +4,23 @@
   <unicode hex="041C"/>
   <outline>
     <contour>
-      <point x="460" y="805" type="move" name="Top"/>
+      <point x="460" y="805" type="move" name="Anchor-0"/>
     </contour>
-    <component base="M"/>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="76" y="739" type="line"/>
+      <point x="191" y="739" type="line"/>
+      <point x="460" y="110" type="line"/>
+      <point x="728" y="739" type="line"/>
+      <point x="843" y="739" type="line"/>
+      <point x="843" y="0" type="line"/>
+      <point x="769" y="0" type="line"/>
+      <point x="769" y="658" type="line"/>
+      <point x="491" y="0" type="line"/>
+      <point x="427" y="0" type="line"/>
+      <point x="150" y="658" type="line"/>
+      <point x="150" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

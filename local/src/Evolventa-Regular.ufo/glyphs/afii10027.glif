@@ -4,10 +4,36 @@
   <unicode hex="0419"/>
   <outline>
     <contour>
-      <point x="370" y="987" type="move" name="Top"/>
+      <point x="370" y="987" type="move" name="Anchor-0"/>
     </contour>
-    <component base="breve.cyruc" xOffset="129"/>
-    <component base="afii10026"/>
+    <contour>
+      <point x="203" y="931" type="curve"/>
+      <point x="278" y="931" type="line"/>
+      <point x="278" y="868"/>
+      <point x="312" y="842"/>
+      <point x="370" y="842" type="curve" smooth="yes"/>
+      <point x="428" y="842"/>
+      <point x="462" y="868"/>
+      <point x="462" y="931" type="curve"/>
+      <point x="537" y="931" type="line"/>
+      <point x="521" y="836"/>
+      <point x="458" y="796"/>
+      <point x="370" y="796" type="curve" smooth="yes"/>
+      <point x="282" y="796"/>
+      <point x="219" y="836"/>
+    </contour>
+    <contour>
+      <point x="590" y="739" type="line"/>
+      <point x="664" y="739" type="line"/>
+      <point x="664" y="0" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="590" y="629" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="76" y="0" type="line"/>
+      <point x="76" y="739" type="line"/>
+      <point x="150" y="739" type="line"/>
+      <point x="150" y="110" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
